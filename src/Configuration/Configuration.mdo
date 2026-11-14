@@ -61,12 +61,10 @@
   <constants>Constant.ЛогинКурьераЦентральнойБазы</constants>
   <constants>Constant.ПарольКурьераЦентральнойБазы</constants>
   <constants>Constant.АдресСервераЦентральнойБазы</constants>
-  <constants>Constant.ИдентификаторПриложения</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.Доставка</documents>
   <enums>Enum.СтатусыДоставок</enums>
-  <dataProcessors>DataProcessor.ПолучениеИдентификатораМобильногоУстройства</dataProcessors>
   <dataProcessors>DataProcessor.Авторизация</dataProcessors>
   <dataProcessors>DataProcessor.ДоставкаЗаказов</dataProcessors>
 </mdclass:Configuration>
