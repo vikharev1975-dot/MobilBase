@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09b214e7-1d4d-489c-9ad7-0f97930666a7">
+  <name>МобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a45ea0ba-c81d-455e-8882-56a21743d4c7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="af19917c-55f3-4175-8a03-7f28adbcac5d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e8749aa6-2105-48d7-aeb4-8a678f988c27"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0f2b93b8-fd65-4389-b740-b3102fbfe353"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="71b523e9-33f2-4df4-beb3-39fb70ad088e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="068fb512-ca3d-4d2b-83bf-65716b82a5c7"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ba2ef402-571b-48ae-aab3-0f6edfb6a589"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <functionality>Contacts</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>NumberDialing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>CallProcessing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>CallLog</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="710af53e-272a-4e37-8ab5-476a7b39eb71">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.СвязьСЦентральнойБазой</commonModules>
+  <constants>Constant.ЛогинКурьераЦентральнойБазы</constants>
+  <constants>Constant.ПарольКурьераЦентральнойБазы</constants>
+  <constants>Constant.АдресСервераЦентральнойБазы</constants>
+  <constants>Constant.ИдентификаторПриложения</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.Доставка</documents>
+  <enums>Enum.СтатусыДоставок</enums>
+  <dataProcessors>DataProcessor.ПолучениеЗаказов</dataProcessors>
+  <dataProcessors>DataProcessor.ПроверкаСвязи</dataProcessors>
+  <dataProcessors>DataProcessor.СредстваМобильнойПлатформы</dataProcessors>
+  <dataProcessors>DataProcessor.Войти</dataProcessors>
+  <dataProcessors>DataProcessor.Авторизация</dataProcessors>
+</mdclass:Configuration>
