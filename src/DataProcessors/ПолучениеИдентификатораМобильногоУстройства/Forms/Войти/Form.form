@@ -130,7 +130,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ПолучениеидентификатораМобильногоУстройства</types>
+      <types>DataProcessorObject.ПолучениеИдентификатораМобильногоУстройства</types>
     </valueType>
     <view>
       <common>true</common>

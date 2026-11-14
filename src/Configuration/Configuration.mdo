@@ -66,9 +66,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.Доставка</documents>
   <enums>Enum.СтатусыДоставок</enums>
-  <dataProcessors>DataProcessor.КоличествоЗаказов</dataProcessors>
-  <dataProcessors>DataProcessor.ПроверкаСвязи</dataProcessors>
-  <dataProcessors>DataProcessor.СредстваМобильнойПлатформы</dataProcessors>
-  <dataProcessors>DataProcessor.ПолучениеидентификатораМобильногоУстройства</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеИдентификатораМобильногоУстройства</dataProcessors>
   <dataProcessors>DataProcessor.Авторизация</dataProcessors>
+  <dataProcessors>DataProcessor.ДоставкаЗаказов</dataProcessors>
 </mdclass:Configuration>

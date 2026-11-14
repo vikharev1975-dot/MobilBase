@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Логин</name>
-    <id>1</id>
+    <name>АдресЦентральнойБазы</name>
+    <id>19</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Логин</segments>
+      <segments>АдресСервераЦентральнойБазы</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>АдресЦентральнойБазыПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>ЛогинРасширеннаяПодсказка</name>
-      <id>3</id>
+      <name>АдресЦентральнойБазыРасширеннаяПодсказка</name>
+      <id>21</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -22,8 +26,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ЛогинКонтекстноеМеню</name>
-      <id>2</id>
+      <name>АдресЦентральнойБазыКонтекстноеМеню</name>
+      <id>20</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -43,19 +47,23 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Пароль</name>
-    <id>5</id>
+    <name>ЛогинКурьера</name>
+    <id>24</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Пароль</segments>
+      <segments>ЛогинКурьера</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ЛогинКурьераПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>ПарольРасширеннаяПодсказка</name>
-      <id>7</id>
+      <name>ЛогинКурьераРасширеннаяПодсказка</name>
+      <id>26</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -64,8 +72,54 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПарольКонтекстноеМеню</name>
-      <id>6</id>
+      <name>ЛогинКурьераКонтекстноеМеню</name>
+      <id>25</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ПарольКурьера</name>
+    <id>28</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПарольКурьера</segments>
+    </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПарольКурьераПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ПарольКурьераРасширеннаяПодсказка</name>
+      <id>30</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПарольКурьераКонтекстноеМеню</name>
+      <id>29</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -117,6 +171,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -141,10 +199,10 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>Логин</name>
+    <name>ЛогинКурьера</name>
     <title>
       <key>ru</key>
-      <value>Логин</value>
+      <value>Логин курьера</value>
     </title>
     <id>2</id>
     <valueType>
@@ -159,12 +217,30 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Пароль</name>
+    <name>ПарольКурьера</name>
     <title>
       <key>ru</key>
-      <value>Пароль</value>
+      <value>Пароль курьера</value>
     </title>
     <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресСервераЦентральнойБазы</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес сервера центральной базы</value>
+    </title>
+    <id>5</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

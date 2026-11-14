@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2958a0d4-01f3-41e8-ae58-dfe299a5bcb6">
+  <producedTypes>
+    <objectType typeId="46d00e74-064f-4e7d-9086-c4a6b10e3605" valueTypeId="044f4c88-0c48-4054-b2fa-e3c964457b2a"/>
+    <managerType typeId="00c8237f-940e-43e3-998f-abf3d30b09ad" valueTypeId="79539e1a-4442-4bb6-ab9e-2e6019c52c4f"/>
+  </producedTypes>
+  <name>ДоставкаЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доставка заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДоставкаЗаказов.Form.ЗаказыКурьера</defaultForm>
+  <forms uuid="d1818427-610c-4ee4-a936-d717a33187a0">
+    <name>ЗаказыКурьера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы курьера</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
