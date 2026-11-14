@@ -4,13 +4,13 @@
     <objectType typeId="f9d2bcdc-486e-4f74-8188-8ddd623ec44c" valueTypeId="b1202f05-991f-4ca5-b079-9ddf7c3d1f44"/>
     <managerType typeId="18c13a6b-ed16-4c25-ac06-98c53980c5eb" valueTypeId="d44817b4-aa3a-4346-8285-ebb80f46a0fa"/>
   </producedTypes>
-  <name>Войти</name>
+  <name>ПолучениеидентификатораМобильногоУстройства</name>
   <synonym>
     <key>ru</key>
-    <value>Войти</value>
+    <value>Получениеидентификатора мобильного устройства</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.Войти.Form.Войти</defaultForm>
+  <defaultForm>DataProcessor.ПолучениеидентификатораМобильногоУстройства.Form.Войти</defaultForm>
   <forms uuid="c89a18a0-de20-45de-b4a1-1231aef62995">
     <name>Войти</name>
     <synonym>

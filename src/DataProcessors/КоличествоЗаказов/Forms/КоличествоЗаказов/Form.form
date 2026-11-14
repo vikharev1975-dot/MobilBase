@@ -50,7 +50,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ПолучениеЗаказов</types>
+      <types>DataProcessorObject.КоличествоЗаказов</types>
     </valueType>
     <view>
       <common>true</common>
