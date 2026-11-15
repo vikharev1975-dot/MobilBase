@@ -66,4 +66,5 @@
   <documents>Document.Доставка</documents>
   <enums>Enum.СтатусыДоставок</enums>
   <dataProcessors>DataProcessor.Авторизация</dataProcessors>
+  <dataProcessors>DataProcessor.Обмен</dataProcessors>
 </mdclass:Configuration>
