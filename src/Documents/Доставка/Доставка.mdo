@@ -76,10 +76,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="955a9938-8cf8-4bf9-afa2-3d209c1a2212">
-    <name>СтатусДоставки</name>
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Статус доставки</value>
+      <value>Статус</value>
     </synonym>
     <type>
       <types>EnumRef.СтатусыДоставок</types>
